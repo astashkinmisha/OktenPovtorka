@@ -1,0 +1,34 @@
+.header {
+    background: silver;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 5px solid black;
+}
+.main {
+    background: #7c7777;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+.borderImg {
+
+    width: 20%;
+    height: 20%;
+}
+
+.footer {
+    background: #3e3e3e;
+    width: 250px;
+    height: 250px;
+    margin:10px;
+    border: 5px solid black;
+}
+
+.forFlex {
+    display: flex;
+    justify-content: center;
+
+}

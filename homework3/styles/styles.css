@@ -1,0 +1,64 @@
+.general{
+    width: 80%;
+    height: 800px;
+    margin-top: 10%;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+}
+
+.BC-father{
+    display: flex;
+    height: 65%;
+}
+
+.BFDE-father{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+.block-A{
+    background: darkblue;
+    height: 30%;
+}
+
+
+.block-B{
+    background: gold;
+    width: 100%;
+    height: 50%;
+}
+
+.CDE-father{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+.CDE{
+    width: 100%;
+    height: auto;
+    padding: 3%;
+}
+
+.block-C {
+    width: 33%;
+    background: darkgreen;
+}
+.block-D {
+    width: 33%;
+    background: white;
+
+}
+.block-E {
+    width: 33%;
+    background: peachpuff;
+}
+
+.block-F {
+    background: burlywood;
+    width: 100%;
+}

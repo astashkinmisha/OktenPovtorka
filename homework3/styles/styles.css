@@ -21,13 +21,13 @@
     width: 70%;
 }
 
-.block-A{
-    background: darkblue;
+.A{
+    background: darkslategrey;
     height: 30%;
 }
 
 
-.block-B{
+.B{
     background: gold;
     width: 100%;
     height: 50%;
@@ -41,24 +41,79 @@
 .CDE{
     width: 100%;
     height: auto;
-    padding: 3%;
 }
 
-.block-C {
-    width: 33%;
+.C {
+    width: 33.3%;
     background: darkgreen;
 }
-.block-D {
-    width: 33%;
+.D {
+    width: 33.3%;
     background: white;
 
 }
-.block-E {
-    width: 33%;
+.E {
+    width: 33.3%;
     background: peachpuff;
 }
 
-.block-F {
+.F {
     background: burlywood;
     width: 100%;
+}
+
+.HKL-father {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.H {
+    width: 33.3%;
+    background: teal;
+}
+
+.K {
+    width: 33.3%;
+    background: pink;
+}
+
+.L {
+    width: 33.3%;
+    background: red;
+}
+
+
+
+
+.main {
+    width: 350px;
+    height: 350px;
+
+}
+
+.A2 {
+    width: 100%;
+    background: darkgreen;
+    height: 35%;
+}
+
+.BC2 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.B2 {
+    width: 80%;
+    background: teal;
+margin-right: 3px;
+    margin-top: 2px
+}
+
+.C2 {
+    width: 20%;
+    background: darkslategrey;
+    margin-top: 2px;
 }
